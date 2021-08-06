@@ -2,6 +2,26 @@
     <html>
         <head>
             <link rel="stylesheet" href="stylesheets/main.css">
+            <!-- https://material.io/resources/icons/?style=baseline -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+rel="stylesheet">
+
+<!-- https://material.io/resources/icons/?style=outline -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+rel="stylesheet">
+
+<!-- https://material.io/resources/icons/?style=round -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+rel="stylesheet">
+
+<!-- https://material.io/resources/icons/?style=sharp -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp"
+rel="stylesheet">
+
+<!-- https://material.io/resources/icons/?style=twotone -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone"
+rel="stylesheet">
+
             <title>Recreating Google Home Page</title>
         </head>
         <body>
@@ -9,11 +29,32 @@
                 <img src="images/googlelogo_color_272x92dp.png">
             </div>
             <div>
-                <div class="c-class form-class">
-                    <form id="form">
-                        <input type="search" id="query" name="q" placeholder="Search....">
-                        <button>Google Search</button>
-                        <button>I am feeling Lucky</button>
+                <div class="form-class">
+                    <form id="form1">
+                    <div class="c-class form-content">
+                        <div class="s-box">
+                            <div class="s-icon">
+                                <span class="s-material material-icons-outlined">
+                                    &#xe8b6;
+                                </span>      
+                            </div>
+                            <div class="s-input">
+                                <input class="s-class" type="text" id="query" name="q">
+                            </div>
+
+                            <div class="s-mic">
+                                <span class="s-mic-class material-icons-outlined">
+                                    mic
+                                </span>
+                            </div>
+                        </div>
+                        <div class="s-buttons">
+                            <center>
+                                <button type="submit" form="form1" value="Submit">Google Search</button>
+                                <button type="submit" form="form1" value="Submit">I'm Feeling Lucky</button>
+                            </center>
+                        </div>
+                    </div>
                     </form>
                 </div>
 
