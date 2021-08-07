@@ -51,6 +51,10 @@ a {
     
 }
 
+.center-links li {
+    float:left;
+}
+
 .left-links-mobile {
     display:none;
 }
@@ -82,7 +86,7 @@ a {
 
 #country {
     position: fixed;
-    bottom: 50px;
+    bottom: 37px;
     width: 100%;
     background-color: #f2f2f2;
 }
