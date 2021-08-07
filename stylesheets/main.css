@@ -73,6 +73,7 @@ a {
     object-fit: contain;
     object-position: center bottom;
     width: auto;
+    padding-top:43px;
 }
 
 .form-class {
@@ -126,7 +127,6 @@ a {
     margin-top: -5px;
     align-items: stretch;
     flex-direction: row;
-    flex: 1 0 auto;
     display: flex;
     cursor: pointer;
     align-items: center;
@@ -182,4 +182,35 @@ a {
     height: 24px;
     width: 24px;
     vertical-align: middle;
+}
+
+.top-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-links li {
+    display:inline;
+    float:right;
+}
+
+.top-links a {
+    display: block;
+    padding: 8px;
+    text-decoration:none;
+    color: #70757a;
+}
+
+.button {
+    background-color: #1a73e8; /* Green */
+    border: none;
+    border-radius:4px;
+    padding: 3px 19px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button a {
+    color:white;
 }
